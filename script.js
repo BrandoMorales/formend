@@ -76,12 +76,3 @@ document.addEventListener("DOMContentLoaded", function () {
     formulario.reset(); // limpia el formulario si lo deseas
   });
 });
-
-document.addEventListener("DOMContentLoaded", function () {
-  const formulario = document.getElementById("miFormulario");
-  formulario.addEventListener("submit", function (event) {
-    event.preventDefault(); // evita el envío automático
-    alert("El formulario fue enviado correctamente");
-    formulario.reset(); // limpia el formulario si lo deseas
-  });
-});
